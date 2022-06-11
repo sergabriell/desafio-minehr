@@ -1,5 +1,6 @@
 import './styles.css';
 import IconFilter from '../../assets/icon-filter.svg';
+import BarCharts from '../../components/BarCharts';
 
 function Dashboard() {
     return (
@@ -19,6 +20,8 @@ function Dashboard() {
                         <span>Filtrar</span>
                     </div>
                 </div>
+
+                <BarCharts />
             </div>
 
 

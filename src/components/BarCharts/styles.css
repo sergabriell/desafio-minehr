@@ -1,0 +1,20 @@
+.content-bar-chart {
+    position: relative;
+    width: 650px;
+}
+
+.content-bar-chart img {
+    position: absolute;
+    top: 4.3rem;
+    left: 6rem;
+    cursor: pointer;
+}
+
+.bar-chart {
+    width: 650px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 45px;
+    padding: 21px 38px 14px 23px;
+}
