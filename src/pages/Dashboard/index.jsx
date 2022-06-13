@@ -1,6 +1,7 @@
 import './styles.css';
 import IconFilter from '../../assets/icon-filter.svg';
 import BarCharts from '../../components/BarCharts';
+import ScatterCharts from '../../components/ScatterCharts';
 
 function Dashboard() {
     return (
@@ -21,7 +22,10 @@ function Dashboard() {
                     </div>
                 </div>
 
-                <BarCharts />
+                <div className="content-charts">
+                    <BarCharts />
+                    <ScatterCharts />
+                </div>
             </div>
 
 

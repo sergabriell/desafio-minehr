@@ -3,6 +3,10 @@ import './styles.css';
 import IconInfo from '../../assets/icon-info.svg';
 
 function BarCharts() {
+    const series = [{
+        data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1350]
+    }]
+
     const options = {
         plotOptions: {
             bar: {
@@ -34,11 +38,8 @@ function BarCharts() {
                 className='bar-chart'
                 type="bar"
                 height='360'
-                series={[{
-                    data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1350]
-                }]}
+                series={series}
                 options={options}
-                img={IconInfo}
             />
             <img src={IconInfo} alt="info" />
         </div>
