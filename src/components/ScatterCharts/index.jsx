@@ -41,12 +41,35 @@ function ScatterCharts() {
         title: {
             text: 'Scatter',
             align: 'left',
+            offsetX: -10,
             style: {
                 color: '#5D405C',
                 fontSize: '16px',
                 fontWeight: '700'
             }
-        }
+        },
+        chart: {
+            offsetX: 4,
+            toolbar: {
+                show: true,
+                tools: {
+                    zoom: false,
+                    zoomout: false,
+                    zoomin: false,
+                    reset: false,
+                    pan: false,
+                    download: true
+                }
+            },
+            selection: {
+                stroke: {
+                    width: 1,
+                    dashArray: 3,
+                    color: 'red'
+                }
+            }
+        },
+
     };
     return (
         <div className="content-scatter-chart">

@@ -1,6 +1,6 @@
 .content-scatter-chart {
     position: relative;
-    width: 650px;
+    width: 680px;
 }
 
 .content-scatter-chart img {
@@ -11,10 +11,10 @@
 }
 
 .scatter-chart {
-    width: 650px;
+    /* width: 680px; */
     background: #ffffff;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-top: 45px;
-    padding: 21px 38px 14px 23px;
+    padding: 21px 50px 14px 30px;
 }
